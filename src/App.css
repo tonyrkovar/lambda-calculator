@@ -1,0 +1,63 @@
+.container {
+    background-color: red;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 1.5%;
+}
+
+.App{
+    height: 80%;
+    margin-top: -10%;
+}
+
+.display{
+    background-color:#323335;
+    color: black;
+    width: 90%; 
+    height: 60px;
+    margin-top: 12%;
+    margin-bottom: 3%;
+    border-radius: 10%/40%;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 75% 20%;
+}
+
+.numberButton {
+    width: 70px;
+    height: 70px;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    margin: 1%;
+    background-color: #184376;
+}
+
+.num-spec-button{
+    display: grid;
+
+}
+
+.specialButton {
+    width: 70px;
+    height: 70px;
+    background-color: #225d9e;
+    /* border: none; */
+    color: white;
+    border-radius: 50%;
+    border-color: black;
+    margin: 1%;
+}
+
+.operatorButton {
+    width: 70px;
+    height: 70px;
+    background-color: #237293;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    margin: 1%;
+}
